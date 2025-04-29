@@ -44,3 +44,51 @@ El formulario debería enviarse y mostrar un mensaje de éxito.
 ![bug screenshot](https://ejemplo.com/captura.png)
 
 **Etiquetas:** `bug`, `frontend`
+
+# 🤝 ¿Qué es un Pull Request (PR) en GitHub?
+
+Un **Pull Request** (solicitud de extracción) es una propuesta para **fusionar cambios** desde una rama (branch) hacia otra dentro de un repositorio, normalmente hacia la rama principal (`main` o `master`).
+
+Es una parte clave del flujo de trabajo colaborativo en Git, donde los cambios pueden ser revisados, discutidos y aprobados antes de integrarse al proyecto principal.
+
+---
+
+## 🔄 ¿Para qué se usa un Pull Request?
+
+- Proponer nuevos cambios en el código.
+- Solicitar revisión de código por parte del equipo.
+- Discutir posibles mejoras o problemas antes de fusionar.
+- Mantener un historial claro de contribuciones.
+
+---
+
+## 🧩 Estructura de un Pull Request
+
+Un PR suele incluir:
+
+- **Título** descriptivo del cambio.
+- **Descripción** detallada de lo que se ha hecho y por qué.
+- Comparación entre ramas: `rama-origen` → `rama-destino`.
+- Posibilidad de **asignar revisores**, etiquetas o vincular issues relacionados.
+- **Commits** realizados.
+- **Archivos modificados**.
+- Sección de **comentarios y revisión**.
+
+---
+
+## ✅ Ejemplo de Pull Request
+
+```markdown
+### Título: Agrega validación de formulario en la página de contacto
+
+**Descripción:**
+Este pull request agrega validaciones en el formulario de contacto para asegurarse de que los campos de nombre, correo y mensaje no estén vacíos.
+
+**Cambios realizados:**
+- Se añadió un archivo `validacion.js`.
+- Se implementó la función `validarFormulario()`.
+- Se actualizó `index.html` para vincular el nuevo script.
+
+**Relacionado con:** Issue #42
+
+**Etiquetas:** `enhancement`, `frontend`

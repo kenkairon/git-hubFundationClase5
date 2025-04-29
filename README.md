@@ -136,3 +136,42 @@ Related to #40
 - Muestra mensajes de error debajo de los campos.
 
 **Revisores:** @usuario1 @usuario2
+
+# 📝 ¿Qué es un Draft Pull Request en GitHub?
+
+Un **Draft Pull Request** (PR en borrador) es un tipo especial de pull request que indica que el trabajo **todavía no está terminado** y **no está listo para ser revisado o fusionado**.
+
+Sirve como una manera de **compartir el progreso temprano** de una funcionalidad o corrección, y recibir comentarios anticipados sin presionar para su aprobación inmediata.
+
+---
+
+## 🎯 ¿Para qué sirve un Draft PR?
+
+- Mostrar que el trabajo aún está en desarrollo.
+- Compartir código con el equipo para recibir **feedback temprano**.
+- Mantener a otros colaboradores informados del progreso.
+- Evitar fusiones prematuras.
+
+---
+
+## 📌 Características de un Draft PR
+
+- Muestra una etiqueta **"Draft"** en la lista de Pull Requests.
+- No se puede **fusionar** hasta que se marque como "Ready for review".
+- Puedes seguir haciendo **commits** normalmente.
+- Se puede cambiar a PR normal en cualquier momento.
+
+---
+
+## 🛠 Cómo crear un Draft PR
+
+### Opción 1: Desde la interfaz de GitHub
+
+1. Haz clic en **"New Pull Request"**.
+2. Selecciona las ramas.
+3. En vez de hacer clic en "Create Pull Request", selecciona **"Create Draft Pull Request"**.
+
+### Opción 2: Desde la terminal (con GitHub CLI)
+
+```bash
+gh pr create --draft

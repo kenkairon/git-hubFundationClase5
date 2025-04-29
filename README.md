@@ -78,7 +78,7 @@ Un PR suele incluir:
 
 ## ✅ Ejemplo de Pull Request
 
-```markdown
+
 ### Título: Agrega validación de formulario en la página de contacto
 
 **Descripción:**
@@ -92,3 +92,47 @@ Este pull request agrega validaciones en el formulario de contacto para asegurar
 **Relacionado con:** Issue #42
 
 **Etiquetas:** `enhancement`, `frontend`
+
+# 🔗 Cómo asociar Pull Requests con Issues en GitHub
+
+Vincular un **Pull Request (PR)** con un **Issue** permite mantener el seguimiento del trabajo y automatizar el cierre de issues cuando se fusiona el PR.
+
+---
+
+## 🧠 ¿Por qué asociarlos?
+
+- Facilita la **trazabilidad** del trabajo realizado.
+- Permite **cerrar automáticamente un issue** cuando se aprueba y fusiona un PR.
+- Mejora la organización y la **colaboración en equipo**.
+
+---
+
+## ✅ Formas de asociar un PR con un Issue
+
+### 1. Cierre automático (más usada)
+
+En la descripción del Pull Request, usa **palabras clave** seguidas del número del issue:
+
+
+Fixes #123
+Closes #45
+Resolves #78
+
+Fixes #12, closes #15, resolves #20
+Related to #123
+References #45
+See also: #67
+
+### Título: Mejora la validación de formularios
+
+**Descripción:**
+Este PR mejora la validación del formulario para evitar envíos vacíos y asegura que el email tenga el formato correcto.
+
+Fixes #42
+Related to #40
+
+**Cambios realizados:**
+- Añade expresiones regulares para validar email.
+- Muestra mensajes de error debajo de los campos.
+
+**Revisores:** @usuario1 @usuario2

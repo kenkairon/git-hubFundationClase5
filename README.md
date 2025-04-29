@@ -26,7 +26,7 @@ Un issue puede incluir:
 
 ## ✅ Ejemplo de Issue
 
-```markdown
+
 ### Título: Error al hacer clic en el botón "Enviar"
 
 **Descripción:**

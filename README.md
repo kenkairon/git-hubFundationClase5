@@ -175,3 +175,16 @@ Sirve como una manera de **compartir el progreso temprano** de una funcionalidad
 
 ```bash
 gh pr create --draft
+
+# 📋 Estados de un Pull Request en GitHub
+
+| Estado               | Descripción                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| 📝 Draft             | El PR está en borrador. No está listo para revisión o fusión.               |
+| 🕵️ Open              | El PR está abierto y esperando revisión, aprobación o cambios.              |
+| ✅ Approved          | Al menos un revisor ha aprobado el PR.                                     |
+| 🛑 Changes requested | Se ha revisado el PR y se han solicitado cambios.                          |
+| 🔁 Review required   | El PR necesita al menos una revisión antes de ser aprobado.                |
+| 🔒 Conflict          | Hay conflictos entre ramas que deben resolverse antes de fusionar.         |
+| 🚫 Closed            | El PR fue cerrado sin ser fusionado.                                       |
+| ✅ Merged            | El PR fue aprobado y fusionado con la rama principal u otra rama destino.  |
